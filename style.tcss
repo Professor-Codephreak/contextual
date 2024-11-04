@@ -1,0 +1,88 @@
+/* Main screen styling */
+Screen {
+    background: #000000; /* Black background for terminal effect */
+    color: #00FF00; /* Bright green text for readability */
+    padding: 1;
+}
+
+/* Header Styling */
+Header {
+    dock: top;
+    height: 3;
+    content-align: center middle;
+    background: #003300; /* Dark green for header */
+    color: #00FF00; /* Green text */
+    border-bottom: solid #00FF00;
+}
+
+/* Footer Styling */
+Footer {
+    dock: bottom;
+    height: 2;
+    content-align: center middle;
+    background: #003300; /* Dark green for footer */
+    color: #00FF00;
+    border-top: solid #00FF00;
+}
+
+/* Label Styling */
+Label {
+    padding: 0 1;
+    color: #00FF00;
+}
+
+/* Input Fields */
+Input {
+    background: #001100; /* Dark green background */
+    color: #00FF00; /* Bright green text */
+    border: solid #00FF00;
+    padding: 0 1;
+}
+
+/* RadioSet and RadioButton Styling */
+RadioSet, RadioButton {
+    background: #001100;
+    color: #00FF00;
+    padding: 1;
+    border: solid #00FF00;
+    margin: 1 0;
+}
+
+/* Button Styling */
+Button {
+    background: #003300; /* Dark green background */
+    color: #00FF00; /* Green text */
+    border: solid #00FF00;
+    padding: 1 2;
+}
+
+Button:focus {
+    background: #00FF00;
+    color: #000000; /* Invert colors on focus */
+}
+
+/* ProgressBar Styling */
+ProgressBar {
+    background: #003300; /* Dark green track */
+    color: #00FF00; /* Bright green progress */
+    border: solid #00FF00;
+    height: 1;
+}
+
+/* RichLog area for logging messages */
+RichLog {
+    background: #001100;
+    color: #00FF00;
+    padding: 1;
+    border: solid #00FF00;
+}
+
+/* Static text or status area */
+Static {
+    background: #001100;
+    color: #00FF00;
+    padding: 1;
+    border: solid #00FF00;
+    margin-top: 1;
+}
+
