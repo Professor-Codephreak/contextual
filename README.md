@@ -74,7 +74,15 @@ Usage
 
 Customization
 
-    Modify the styles in style.tcss for customizing the UI appearance.
+    Modify the styles in style.tcss for customizing the UI appearance
+    ├── Set border using a value of the form <bordertype> <color>                
+       │     e.g. border: solid red;                                                
+       │     e.g. border: dashed #00ee22;                                           
+       ├── Valid values for <bordertype> are:                                       
+       │   'ascii', 'blank', 'dashed', 'double', 'heavy', 'hidden', 'hkey', 'inner',
+       │   'none', 'outer', 'panel', 'round', 'solid', 'tall', 'thick', 'vkey', or  
+       │   'wide'                                                                   
+       └── Colors can be specified using hex, RGB, or ANSI color names           
 
 Troubleshooting
 
