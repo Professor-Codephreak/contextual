@@ -3,7 +3,7 @@
 `Contextual` is a Textual-based terminal application that provides an interactive interface for managing configurations, sending messages, and monitoring progress within a command-line environment
 
 
-contextual aware terminal utterance based on the work by <a href="https://github.com/Web3dGuy/textual-ui-example/tree/main">web3Dguy</a> and inspired by <a href="https://gregorylmagnusson.medium.com/pythai-pai-2024-professor-codephreak-mit-licence-b9f6be1c9ef0">Gregory L. Magnusson</a><br />
+contextual aware terminal utterance based on the work by <a href="https://github.com/Web3dGuy/textual-ui-example/tree/main">web3Dguy</a> and <a href="https://gregorylmagnusson.medium.com/pythai-pai-2024-professor-codephreak-mit-licence-b9f6be1c9ef0">Gregory L. Magnusson</a><br />
 
 
 ## Features
