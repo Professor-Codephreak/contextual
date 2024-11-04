@@ -113,3 +113,5 @@ If you encounter any issues:
 License
 
 contextual (c) 2024 Professor Codephreak MIT License
+
+# <a href="https://github.com/Professor-Codephreak/contextual/blob/main/INSTALL.md">INSTALL.md</a>
