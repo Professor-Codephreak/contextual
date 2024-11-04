@@ -5,7 +5,7 @@ from textual.widgets import Header, Footer, Input, Button, RadioSet, RadioButton
 from textual.containers import Horizontal, Vertical
 
 
-class ApiAssistApp(App):
+class ConTexTual(App):
 
     CSS_PATH = "style.tcss"
 
@@ -98,5 +98,5 @@ class ApiAssistApp(App):
 
 
 if __name__ == "__main__":
-    app = ApiAssistApp()
+    app = ConTexTual()
     app.run()
