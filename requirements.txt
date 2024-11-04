@@ -1,0 +1,4 @@
+textual==0.85.2
+textual-dev==1.6.1
+chromadb==0.5.17
+
