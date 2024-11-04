@@ -53,6 +53,16 @@ If you plan to develop further or customize the application, you may also instal
 pip install textual-dev
 ```
 
+Include chromaDB
+```bash
+pip install chromadb
+```
+
+veryify chromaDB installation
+```bash
+python -c "import chromadb; print(chromadb.__version__)"
+```
+
 Step 4: Prepare contextual.py
 
 Ensure contextual.py and style.tcss (if needed) are in the same directory.
