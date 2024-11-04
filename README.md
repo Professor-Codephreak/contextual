@@ -107,7 +107,7 @@ Troubleshooting
 
 If you encounter any issues:
 
-    Ensure Python and Textual are correctly installed.
+    Ensure Python and Textual are correctly installed
     Check the terminal compatibility, as Textual requires a modern terminal with support for 16.7 million colors
 
 License
