@@ -28,7 +28,7 @@ Follow these steps to install the Textual library and set up `Contextual`.
 1. Clone the repository or download the `contextual.py` file directly.
 
 ```bash
-git clone <your-repository-url>](https://github.com/Professor-Codephreak/contextual/
+git clone https://github.com/Professor-Codephreak/contextual/
 cd contextual
 ```
 
