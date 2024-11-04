@@ -37,8 +37,8 @@ Step 2: Create and Activate a Virtual Environment (Optional)
 It is recommended to create a virtual environment to manage dependencies.
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+python3 -m venv contextual
+source contextual/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 Step 3: Install Textual
 
