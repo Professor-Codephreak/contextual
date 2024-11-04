@@ -5,7 +5,7 @@ from textual.widgets import Header, Footer, Input, Button, RadioSet, RadioButton
 from textual.containers import Horizontal, Vertical
 
 
-class ConTexTual(App):
+class CONTEXTUAL(App):
 
     CSS_PATH = "style.tcss"
 
@@ -98,5 +98,5 @@ class ConTexTual(App):
 
 
 if __name__ == "__main__":
-    app = ConTexTual()
+    app = CONTEXTUAL()
     app.run()
