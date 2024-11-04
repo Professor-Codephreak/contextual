@@ -8,11 +8,11 @@ contextual aware terminal utterance based on the work by <a href="https://github
 
 ## Features
 
-- Interactive input fields for ChromaDB Directory, Collection Name, Embedding Model, and Chat Model.
-- Radio buttons to select between `Ollama` and `Hugging Face` for embedding and language models.
-- Start, Stop, and Send buttons to control operations.
-- Progress bar to display progress for ongoing tasks.
-- Rich log panel for displaying chat messages and status updates.
+- Interactive input fields for ChromaDB Directory, Collection Name, Embedding Model, and Chat Model
+- Radio buttons to select between `Ollama` and `Hugging Face` for embedding and language models
+- Start, Stop, and Send buttons to control operations
+- Progress bar to display progress for ongoing tasks
+- Rich log panel for displaying chat messages and status updates
 
 ## Requirements
 
@@ -21,11 +21,11 @@ contextual aware terminal utterance based on the work by <a href="https://github
 
 ## Installation
 
-Follow these steps to install the Textual library and set up `Contextual`.
+Follow these steps to install the Textual library and set up `Contextual`
 
 ### Step 1: Clone or Download the Repository
 
-1. Clone the repository or download the `contextual.py` file directly.
+1. Clone the repository or download the `contextual.py` file directly
 
 ```bash
 git clone https://github.com/Professor-Codephreak/contextual/
@@ -34,7 +34,7 @@ cd contextual
 
 Step 2: Create and Activate a Virtual Environment (Optional)
 
-It is recommended to create a virtual environment to manage dependencies.
+It is recommended to create a virtual environment to manage dependencies
 
 ```bash
 python3 -m venv contextual
@@ -66,7 +66,7 @@ pip show chromadb
 
 Step 4: Prepare contextual.py
 
-Ensure contextual.py and style.tcss (if needed) are in the same directory.
+Ensure contextual.py and style.tcss (if needed) are in the same directory
 Step 5: Run the Application
 
 Launch Contextual by running:
@@ -75,13 +75,21 @@ Launch Contextual by running:
 python contextual.py
 ```
 
+```bash
+contextual/
+├── contextual.py           # Main application file
+├── ollama_client.py        # Ollama client for embedding and language model APIs
+├── style.tcss              # Custom styles for Textual UI
+└── requirements.txt        # Dependencies for the project
+```
+
 Usage
 
-    Input Fields: Enter information in the fields labeled for ChromaDB Directory, Collection Name, Embedding Model, and Chat Model.
-    Embedding and Language Model Types: Use the radio buttons to choose between Ollama and Hugging Face.
-    Send Button: Use this to send a message from the TextArea.
-    Start/Stop Buttons: Control the start and stop of the main process, updating progress and status in the app.
-    Rich Log: Monitor logs and status updates in real time.
+    Input Fields: Enter information in the fields labeled for ChromaDB Directory, Collection Name, Embedding Model, and Chat Model
+    Embedding and Language Model Types: Use the radio buttons to choose between Ollama and Hugging Face
+    Send Button: Use this to send a message from the TextArea
+    Start/Stop Buttons: Control the start and stop of the main process, updating progress and status in the app
+    Rich Log: Monitor logs and status updates in real time
 
 Customization
 
@@ -100,7 +108,7 @@ Troubleshooting
 If you encounter any issues:
 
     Ensure Python and Textual are correctly installed.
-    Check the terminal compatibility, as Textual requires a modern terminal with support for 16.7 million colors.
+    Check the terminal compatibility, as Textual requires a modern terminal with support for 16.7 million colors
 
 License
 
