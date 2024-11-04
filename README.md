@@ -75,14 +75,6 @@ Launch Contextual by running:
 python contextual.py
 ```
 
-```bash
-contextual/
-├── contextual.py           # Main application file
-├── ollama_client.py        # Ollama client for embedding and language model APIs
-├── style.tcss              # Custom styles for Textual UI
-└── requirements.txt        # Dependencies for the project
-```
-
 Usage
 
     Input Fields: Enter information in the fields labeled for ChromaDB Directory, Collection Name, Embedding Model, and Chat Model
@@ -114,4 +106,14 @@ License
 
 contextual (c) 2024 Professor Codephreak MIT License
 
+```bash
+contextual/
+├── contextual.py           # Main application file
+├── ollama_client.py        # Ollama client for embedding and language model APIs
+├── style.tcss              # Custom styles for Textual UI
+└── requirements.txt        # Dependencies for the project
+```
+
 # <a href="https://github.com/Professor-Codephreak/contextual/blob/main/INSTALL.md">INSTALL.md</a>
+
+
