@@ -61,6 +61,7 @@ pip install chromadb
 veryify chromaDB installation
 ```bash
 python -c "import chromadb; print(chromadb.__version__)"
+pip show chromadb
 ```
 
 Step 4: Prepare contextual.py
